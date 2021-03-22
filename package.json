@@ -1,6 +1,6 @@
 {
-  "name": "@wildberries/eslint-config",
-  "version": "2.0.0-beta.1",
+  "name": "@wildberries/eslint-config-root",
+  "version": "1.0.0-beta.1",
   "description": "",
   "devDependencies": {
     "@commitlint/cli": "9.1.2",
@@ -9,26 +9,22 @@
     "husky": "3.0.9"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "4.19.0",
-    "@typescript-eslint/parser": "4.19.0",
-    "eslint": "7.22.0",
-    "prettier": "2.2.1",
-    "eslint-config-airbnb": "18.2.1",
-    "eslint-config-prettier": "8.1.0",
+    "@typescript-eslint/eslint-plugin": "2.34.0",
+    "@typescript-eslint/parser": "2.5.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-prettier": "6.11.0",
     "eslint-import-resolver-alias": "1.1.2",
-    "eslint-import-resolver-typescript": "2.4.0",
-    "eslint-loader": "4.0.2",
+    "eslint-import-resolver-typescript": "2.0.0",
+    "eslint-import-resolver-webpack": "0.12.1",
     "eslint-plugin-css-modules": "2.11.0",
     "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-jsx-a11y": "6.4.1",
-    "eslint-plugin-prettier": "3.3.1",
-    "eslint-plugin-react": "7.22.0",
-    "eslint-plugin-react-hooks": "4.2.0",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-react": "7.16.0",
+    "eslint-plugin-react-hooks": "2.2.0",
     "eslint-plugin-security": "1.4.0",
-    "eslint-plugin-testcafe": "0.2.1",
-    "eslint-plugin-unused-imports": "1.1.0",
-    "eslint-config-react-app": "6.0.0",
-    "eslint-plugin-flowtype": "5.4.0"
+    "prettier": "1.19.1"
   },
   "scripts": {
     "commit": "git add . && git commit --no-edit",
