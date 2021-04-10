@@ -4,7 +4,6 @@ module.exports = {
     'react-app',
     'airbnb',
     'plugin:prettier/recommended',
-    'prettier/@typescript-eslint',
     'plugin:@typescript-eslint/recommended',
     'plugin:import/typescript',
     'plugin:security/recommended',
@@ -59,6 +58,7 @@ module.exports = {
         ],
       },
     ],
+    "react/react-in-jsx-scope": "off",
     'react-hooks/exhaustive-deps': 'error',
     'react/forbid-dom-props': [2, { forbid: ['style'] }],
     'react/jsx-filename-extension': 'off',
@@ -127,7 +127,17 @@ module.exports = {
     'consistent-return': 0,
     '@typescript-eslint/indent': 0, // Conflicts with Prettier
     '@typescript-eslint/explicit-member-accessibility': 0,
-    '@typescript-eslint/interface-name-prefix': ['error', 'always'],
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "interface",
+        "format": ["PascalCase"],
+        "custom": {
+          "regex": "^I[A-Z]",
+          "match": true
+        }
+      }
+    ],
     '@typescript-eslint/no-explicit-any': 0,
     '@typescript-eslint/no-var-requires': 0,
     'unused-imports/no-unused-imports': 'error',
