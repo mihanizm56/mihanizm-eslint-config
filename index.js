@@ -152,6 +152,8 @@ module.exports = {
     'security/detect-object-injection': 0,
     'security/detect-non-literal-regexp': 0,
     'security/detect-non-literal-fs-filename': 0,
+    '@typescript-eslint/camelcase':'off',
+    'camelcase':["error", {properties: "always"}],
   },
   settings: {
     'import/resolver': {
