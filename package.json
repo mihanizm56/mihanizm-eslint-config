@@ -1,6 +1,6 @@
 {
   "name": "@wildberries/eslint-config",
-  "version": "2.0.0-beta.4",
+  "version": "2.0.0-alpha.0",
   "description": "",
   "devDependencies": {
     "@commitlint/cli": "9.1.2",
