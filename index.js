@@ -154,6 +154,8 @@ module.exports = {
     'security/detect-non-literal-fs-filename': 0,
     '@typescript-eslint/camelcase':'off',
     'camelcase':["error", {properties: "always"}],
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": "error"
   },
   settings: {
     'import/resolver': {
