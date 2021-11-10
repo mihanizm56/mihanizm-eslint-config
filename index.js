@@ -8,6 +8,7 @@ module.exports = {
     'plugin:import/typescript',
     'plugin:security/recommended',
     'plugin:testcafe/recommended',
+    'plugin:testcafe/recommended'
   ],
   parserOptions: {
     ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
@@ -18,7 +19,14 @@ module.exports = {
     node: true,
     jest: true,
   },
-  plugins: ['import', 'react-hooks', 'security', 'unused-imports', 'testcafe'],
+  plugins: [
+    'import', 
+    'react-hooks', 
+    'security', 
+    'unused-imports',
+    'testcafe',
+    'wildberries-seller-codestyle'
+  ],
   rules: {
     "import/extensions": [
       "error",
@@ -155,7 +163,9 @@ module.exports = {
     '@typescript-eslint/camelcase':'off',
     'camelcase':["error", {properties: "always"}],
     "no-shadow": "off",
-    "@typescript-eslint/no-shadow": "error"
+    "@typescript-eslint/no-shadow": "error",
+    // @wildberries-codestyle
+    "wildberries-seller-codestyle/redux-selectors-names": "error",
   },
   settings: {
     'import/resolver': {
