@@ -1,6 +1,6 @@
 {
   "name": "@wildberries/eslint-config",
-  "version": "2.1.0-alpha.1",
+  "version": "2.1.0-beta.2",
   "description": "",
   "devDependencies": {
     "@commitlint/cli": "9.1.2",
@@ -28,7 +28,7 @@
     "eslint-plugin-security": "1.4.0",
     "eslint-plugin-testcafe": "0.2.1",
     "eslint-plugin-unused-imports": "1.1.5",
-    "eslint-plugin-wildberries-seller-codestyle": "0.0.1-beta.2",
+    "eslint-plugin-wildberries-seller-codestyle": "0.0.1-beta.5",
     "prettier": "2.4.1"
   },
   "scripts": {

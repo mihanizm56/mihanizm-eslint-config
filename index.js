@@ -165,7 +165,7 @@ module.exports = {
     "no-shadow": "off",
     "@typescript-eslint/no-shadow": "error",
     // @wildberries-codestyle
-    "wildberries-seller-codestyle/redux-selectors-names": "error",
+    "wildberries-seller-codestyle/redux-modules": "error"
   },
   settings: {
     'import/resolver': {
