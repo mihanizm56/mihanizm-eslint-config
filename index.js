@@ -25,7 +25,7 @@ module.exports = {
     'security', 
     'unused-imports',
     'testcafe',
-    'wildberries-seller-codestyle'
+    // 'wildberries-seller-codestyle'
   ],
   rules: {
     "import/extensions": [
@@ -164,8 +164,9 @@ module.exports = {
     'camelcase':["error", {properties: "always"}],
     "no-shadow": "off",
     "@typescript-eslint/no-shadow": "error",
+    "id-length": ["error", { "min": 2, "properties": "never" }]
     // @wildberries-codestyle
-    "wildberries-seller-codestyle/redux-modules": "error"
+    // "wildberries-seller-codestyle/redux-modules": "error"
   },
   settings: {
     'import/resolver': {
