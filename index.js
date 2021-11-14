@@ -7,7 +7,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:import/typescript',
     'plugin:security/recommended',
-    'plugin:testcafe/recommended',
     'plugin:testcafe/recommended'
   ],
   parserOptions: {
@@ -164,7 +163,21 @@ module.exports = {
     'camelcase':["error", {properties: "always"}],
     "no-shadow": "off",
     "@typescript-eslint/no-shadow": "error",
-    "id-length": ["error", { "min": 2, "properties": "never" }]
+    "id-length": ["error", { "min": 2, "properties": "never" }],
+    "react/sort-comp": [
+      2,
+      {
+        "order": [
+          "static-variables",
+          "static-methods",
+          "type-annotations",
+          "instance-variables",
+          "lifecycle",
+          "everything-else",
+          "render"
+        ]
+      }
+    ]
     // @wildberries-codestyle
     // "wildberries-seller-codestyle/redux-modules": "error"
   },
