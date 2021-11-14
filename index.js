@@ -172,6 +172,7 @@ module.exports = {
           "static-methods",
           "type-annotations",
           "instance-variables",
+          "/^.+(r|R)efs?$/", // "instance-variables" does not work for refs vars - I made the regexp for them
           "lifecycle",
           "everything-else",
           "render"
