@@ -124,6 +124,7 @@ module.exports = {
     'function-paren-newline': 0,
     'react-hooks/rules-of-hooks': 'error',
     'react/default-props-match-prop-types': 0,
+    'react/no-did-update-set-state': 0,
     'react/require-default-props': 0,
     'react/jsx-wrap-multilines': [
       'error',
