@@ -125,6 +125,7 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react/default-props-match-prop-types': 0,
     'react/no-did-update-set-state': 0,
+    'react/no-array-index-key':0,
     'react/require-default-props': 0,
     'react/jsx-wrap-multilines': [
       'error',
