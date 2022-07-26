@@ -188,7 +188,7 @@ module.exports = {
     ],
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"]
-    // @wildberries-codestyle
+    // @wildberries-codestyle example
     // "wildberries-seller-codestyle/redux-modules": "error"
   },
   settings: {
