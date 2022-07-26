@@ -50,7 +50,8 @@ module.exports = {
     'jsx-a11y/media-has-caption': 'off',
     'import/prefer-default-export': 0,
     'prefer-destructuring': 0,
-    'react/destructuring-assignment': 0,
+    'react/destructuring-assignment': 0,    
+    "no-undefined":2,
     'import/order': [
       'error',
       {
