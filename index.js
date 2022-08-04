@@ -52,7 +52,7 @@ module.exports = {
       {
         "case": "kebabCase",
         "ignore": [
-          "serviceWorker.js"
+          "serviceWorker.js",
           "setupProxy.js"
         ]
       }
