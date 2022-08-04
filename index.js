@@ -24,7 +24,8 @@ module.exports = {
     'security', 
     'unused-imports',
     'testcafe',
-    // 'wildberries-seller-codestyle'
+    // 'wildberries-seller-codestyle',
+    "unicorn"
   ],
   rules: {
     "import/extensions": [
@@ -45,6 +46,12 @@ module.exports = {
         useTabs: false,
         printWidth: 80,
       },
+    ],
+    "unicorn/filename-case": [
+      "error",
+      {
+        "case": "kebabCase"
+      }
     ],
     'no-implied-eval': 2,
     'jsx-a11y/media-has-caption': 'off',

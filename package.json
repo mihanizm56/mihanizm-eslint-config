@@ -1,6 +1,6 @@
 {
   "name": "@wildberries/eslint-config",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "main": "index.js",
   "description": "Wildberries seller service config",
   "dependencies": {
@@ -22,6 +22,7 @@
     "eslint-plugin-security": "1.5.0",
     "eslint-plugin-testcafe": "0.2.1",
     "eslint-plugin-unused-imports": "2.0.0",
+    "eslint-plugin-unicorn": "43.0.2",
     "eslint-plugin-wildberries-seller-codestyle": "0.0.1-beta.5",
     "prettier": "2.7.1"
   },
