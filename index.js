@@ -50,7 +50,11 @@ module.exports = {
     "unicorn/filename-case": [
       "error",
       {
-        "case": "kebabCase"
+        "case": "kebabCase",
+        "ignore": [
+          "serviceWorker.js"
+          "setupProxy.js"
+        ]
       }
     ],
     'no-implied-eval': 2,
