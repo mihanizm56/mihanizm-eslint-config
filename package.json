@@ -1,10 +1,10 @@
 {
   "name": "@wildberries/eslint-config",
-  "version": "2.1.8",
+  "version": "2.1.9",
   "main": "index.js",
   "description": "Wildberries seller service config",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.32.0",
+    "@typescript-eslint/eslint-plugin": "5.33.0",
     "@typescript-eslint/parser": "5.31.0",
     "eslint": "8.20.0",
     "eslint-config-airbnb": "19.0.4",
