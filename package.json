@@ -1,6 +1,6 @@
 {
   "name": "@wildberries/eslint-config",
-  "version": "2.1.10-beta.1",
+  "version": "2.1.10-beta.2",
   "main": "index.js",
   "description": "Wildberries seller service config",
   "dependencies": {
@@ -10,7 +10,8 @@
     "eslint-config-prettier": "8.5.0",
     "eslint-config-react-app": "7.0.1",
     "eslint-import-resolver-alias": "1.1.2",
-    "eslint-import-resolver-typescript": "3.3.0"
+    "eslint-import-resolver-typescript": "3.3.0",
+    "prettier": "2.7.1"
   },
   "peerDependencies": {
     "eslint-plugin-css-modules": "2.11.0",
@@ -25,8 +26,7 @@
     "eslint-plugin-unused-imports": "2.0.0",
     "eslint-plugin-unicorn": "43.0.2",
     "eslint-plugin-wildberries-seller-codestyle": "0.0.1-beta.5",
-    "@typescript-eslint/eslint-plugin": "5.32.0",
-    "prettier": "2.7.1"
+    "@typescript-eslint/eslint-plugin": "5.32.0"
   },
   "devDependencies": {
     "@commitlint/cli": "9.1.2",
