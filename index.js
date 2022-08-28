@@ -182,6 +182,7 @@ module.exports = {
     "no-shadow": "off",
     "@typescript-eslint/no-shadow": "error",
     "id-length": ["error", { "min": 2, "properties": "never" }],
+    "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
     "react/sort-comp": [
       2,
       {
