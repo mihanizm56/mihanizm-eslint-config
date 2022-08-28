@@ -175,6 +175,7 @@ module.exports = {
     'class-methods-use-this': 0,
     'security/detect-child-process': 0,
     'security/detect-object-injection': 0,
+    "react/jsx-uses-react": "off",
     'security/detect-non-literal-regexp': 0,
     'security/detect-non-literal-fs-filename': 0,
     '@typescript-eslint/camelcase':'off',
