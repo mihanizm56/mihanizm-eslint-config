@@ -6,8 +6,7 @@ module.exports = {
     'plugin:prettier/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:import/typescript',
-    'plugin:security/recommended',
-    'plugin:testcafe/recommended'
+    'plugin:security/recommended'
   ],
   parserOptions: {
     ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
@@ -23,8 +22,6 @@ module.exports = {
     'react-hooks', 
     'security', 
     'unused-imports',
-    'testcafe',
-    // 'wildberries-seller-codestyle',
     "unicorn"
   ],
   rules: {
